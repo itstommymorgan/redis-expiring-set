@@ -1,7 +1,5 @@
-module Redis
-  module Expiring
-    module Set
-      VERSION = "0.0.1"
-    end
+class Redis
+  class ExpiringSet
+    VERSION = "0.0.1"
   end
 end

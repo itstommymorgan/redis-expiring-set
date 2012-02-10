@@ -4,7 +4,7 @@ require "redis-expiring-set/version"
 
 Gem::Specification.new do |s|
   s.name        = "redis-expiring-set"
-  s.version     = Redis::Expiring::Set::VERSION
+  s.version     = Redis::ExpiringSet::VERSION
   s.authors     = ["Tommy Morgan"]
   s.email       = ["tommy.morgan@gmail.com"]
   s.homepage    = "http://github.com/duwanis/redis-expiring-set"
