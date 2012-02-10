@@ -58,10 +58,15 @@ At this point you can use `xadd`, `xrem`, `xcard`, `xmembers`, and
 default functionality because I don't want you to have to monkeypatch Redis for
 this if you don't want to.
 
+## Get it
+
+It's a gem named redis-expiring-set. Install it and make it available however
+you prefer.
+
 ## Performance
 
 Redis::ExpiredSet uses nothing but native Redis functions to manipulate data,
-and under the hood we use sorted sets. Expiring items in the cache is only done
+and under the hood we use sorted sets. Expiring items in the set is only done
 when it's absolutely necessary, so there should be a minimal number of
 unnecessary operations.
 
